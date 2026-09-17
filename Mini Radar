@@ -1,0 +1,119 @@
+# 📡 MINI RADAR
+
+|--> 1. THE PROBLEM:
+Radar systems are used to detect objects and determine their distance and position.
+In this project, we explored how a simple embedded system can detect objects at different distances and scan an area using a rotating sensor.
+
+|--> 2. Solution:
+
+An Arduino-controlled mini radar system was developed using an ultrasonic sensor and a servo motor.
+
+The ultrasonic sensor measures the distance to objects, while the servo motor rotates the sensor across different angles.
+
+The Arduino processes the sensor readings and sends the angle and distance data through the Serial Monitor.
+
+|--> 3. Why Did We Make It?
+
+It was designed as a practical building project during workshops.
+
+Instead of learning sensors, servo motors, and Arduino programming separately, students combined them into one working system.
+
+During the process of making the project, students:
+
+. Learned how ultrasonic sensors measure distance
+. Learned how servo motors control angular movement
+. Practiced Arduino programming
+. Learned how to read sensor data
+. Worked with circuit wiring
+. Learned how sensors and actuators interact
+. Built a simple scanning system
+
+|--> 4. Workshop Process
+
+The whole process took place gradually in the workshop.
+
+01 — Understanding the Ultrasonic Sensor
+
+Students learned how the HC-SR04 sensor measures the distance between the sensor and an object.
+
+02 — Introduction to the Servo Motor
+
+The servo motor was introduced as an actuator capable of rotating the sensor to different angles.
+
+03 — Creating the Circuit
+
+Students connected the Arduino, ultrasonic sensor, and servo motor and learned how to follow the circuit connections.
+
+04 — Testing the Sensor
+
+The ultrasonic sensor was tested independently to make sure distance measurements were being received correctly.
+
+05 — Controlling the Servo
+
+Students programmed the servo motor to rotate through different angles.
+
+06 — Combining the System
+
+Finally, the ultrasonic sensor and servo motor were integrated into one scanning system.
+
+|--> 5. How It Works
+
+The servo motor rotates the ultrasonic sensor across a range of angles.
+
+At each angle, the HC-SR04 measures the distance to the nearest detected object.
+
+The Arduino then sends the angle and distance values through the Serial Monitor.
+
+This creates a simple implementation of:
+
+||--> Sense → Process → Act
+
+Sense:
+The ultrasonic sensor measures distance.
+
+Process:
+The Arduino reads and processes the sensor measurement.
+
+Act:
+The servo motor changes the sensor's scanning angle.
+
+|--> Circuit Connections
+
+| Component        | Pin / Terminal | Arduino Connection |
+| ---------------- | -------------- | ------------------ |
+| 📡 HC-SR04       | TRIG           | D7                 |
+| 📡 HC-SR04       | ECHO           | D6                 |
+| 📡 HC-SR04       | VCC            | 5V                 |
+| 📡 HC-SR04       | GND            | GND                |
+| ⚙️ Servo Motor   | Signal         | D9                 |
+| ⚙️ Servo Motor   | VCC            | 5V                 |
+| ⚙️ Servo Motor   | GND            | GND                |
+
+|--> Simulation
+
+Add the Mini Radar simulation screenshot here.
+
+Caption:
+
+Mini Radar prototype using Arduino UNO, HC-SR04 ultrasonic sensor, and servo motor.
+
+|--> Online Simulation
+
+Add your Wokwi simulation link here.
+
+|--> 7. Skills Demonstrated
+
+- Arduino / Embedded Systems
+- C/C++ Programming
+- Ultrasonic Sensing
+- Servo Motor Control
+- Distance Measurement
+- Digital Input/Output
+- Sensor Integration
+- Circuit Wiring
+- Control Logic
+- Hands-on STEM Instruction
+
+|--> 8. Project Status
+
+Completed and tested as a simulated Arduino prototype using Wokwi.
