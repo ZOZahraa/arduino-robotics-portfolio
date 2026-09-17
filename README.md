@@ -68,5 +68,14 @@ This results in a simple implementation of:
 | 📡 Road 2 HC-SR04    | VCC            | 5V                       |
 | 📡 Road 2 HC-SR04    | GND            | GND                      |
 --------------------------------------------------------------------
+============================================================================================
 
-<img width="1920" height="1080" alt="trific simulatio" src="https://github.com/user-attachments/assets/31296476-8f3e-4ff4-92c7-a08882edd0ed" />
+|--> Simulation
+
+<img width="1803" height="931" alt="trific simulatio" src="https://github.com/user-attachments/assets/b4530c35-fa79-4396-9e22-f3f97280832b" />
+
+============================================================================================
+
+|--> Online simulation 
+
+https://wokwi.com/projects/475365575818934273
