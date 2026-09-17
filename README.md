@@ -69,3 +69,4 @@ This results in a simple implementation of:
 | 📡 Road 2 HC-SR04    | GND            | GND                      |
 --------------------------------------------------------------------
 
+<img width="1920" height="1080" alt="trific simulatio" src="https://github.com/user-attachments/assets/31296476-8f3e-4ff4-92c7-a08882edd0ed" />
